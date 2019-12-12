@@ -1,0 +1,46 @@
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\bin\Debug\netcoreapp2.2\POOProject.deps.json
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.json
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.dev.json
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\bin\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\bin\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.csprojAssemblyReference.cache
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.csproj.CoreCompileInputs.cache
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cache
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cs
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfoInputs.cache
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfo.cs
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorTargetAssemblyInfo.cache
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\kenan\Documents\Projetos Desenvolvimento\POOProject\POOProject\obj\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\POOProject.deps.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.dev.json
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\bin\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cache
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cs
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfoInputs.cache
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfo.cs
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorTargetAssemblyInfo.cache
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\angel\OneDrive\Área de Trabalho\POOProject2\POOProject\obj\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.deps.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.dev.json
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.csprojAssemblyReference.cache
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cache
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cs
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfoInputs.cache
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfo.cs
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorTargetAssemblyInfo.cache
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\angel\OneDrive\Área de Trabalho\final\pooproject\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.pdb
