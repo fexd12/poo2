@@ -9,11 +9,11 @@
             <div class="col-sm-offset-1 col-sm-12">
             <form id="cadastro-smartphone" class="text-center border border-light p-5" action="#!">
 
-                <p class="h4 mb-4">Bem-vindo ao sistema de cadastro de Clientes da Manager Cell !</p>
-                <p class="h4 mb-4">Cadastre um novo Cliente</p>
+                <p class="h4 mb-4">Bem-vindo ao sistema de triagem de Clientes da Manager Cell !</p>
+                <p class="h4 mb-4">Cadastre um novo Cliente:</p>
 
                 <input type="text" id="nome" class="offset-3 col-sm-6 form-control mb-4" placeholder="Nome do Cliente">
-                <input type="text" id="cpf"  class="offset-3 col-sm-6 form-control mb-4" placeholder="CPF do Cliente(Somente Numeros)" onblur="TestaCPF(this.value);">
+                <input type="text" id="cpf"  class="offset-3 col-sm-6 form-control mb-4" placeholder="CPF do Cliente (somente números)" onblur="TestaCPF(this.value);">
                 <input type="text" id="marca" class="offset-3 col-sm-6 form-control mb-4" placeholder="Marca do Produto">
                 <input type="text" id="modelo" class="offset-3 col-sm-6 form-control mb-4" placeholder="Modelo do Produto">
                 <input type="text" id="problema" class="offset-3 col-sm-6 form-control mb-4" placeholder="Problema do produto">
@@ -21,13 +21,13 @@
             </form>
         </div>
     </div>
-	<input type="text" id="myInput" class="offset-3 col-sm-6 form-control mb-4" onkeyup="myFunction()" placeholder="Search for ID..">
+	<input type="text" id="myInput" class="offset-3 col-sm-6 form-control mb-4" onkeyup="myFunction()" placeholder="Digite o ID do cliente que deseja buscar...">
     <div class="row" >
         <div class="offset-2 col-sm-8">
             <table id="grid" class="table table-bordered">
                 <thead >
                 <tr>
-                    <th colspan="6" class="text-center">Cadastros de Clientes</th>
+                    <th colspan="6" class="text-center">Clientes cadastrados</th>
 					
                 </tr>
                 <tr>
@@ -36,11 +36,11 @@
                     <th>CPF</th>
                     <th>Marca</th>
                     <th>Modelo</th>
-                    <th>Problema</th>
+                    <th>Problema apresentado</th>
                 </tr>
                 </thead>
                 <tbody>
-                    <tr><td colspan="6">Não há Smartphones cadastrados</td></tr>
+                    <tr><td colspan="6">Não há dispositivos cadastrados</td></tr>
                 </tbody>
             </table>
         </div>
@@ -63,7 +63,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "https://pooproject20191212033413.azurewebsites.net/api/SistemaCadastro/CadastrarSmartphones",
+                    url: "https://localhost:44313/api/SistemaCadastro/CadastrarSmartphones",
                     data: JSON.stringify(params),
                     dataType: "json",
                     contentType: "application/json",

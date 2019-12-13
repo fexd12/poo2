@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\final\\pooproject\\poo-project-api\\POOProject\\POOProject.csproj": {}
+    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\final\\pooproject\\poo-project-api\\POOProject\\POOProject.csproj": {
+    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\final\\pooproject\\poo-project-api\\POOProject\\POOProject.csproj",
+        "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj",
         "projectName": "POOProject",
-        "projectPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\final\\pooproject\\poo-project-api\\POOProject\\POOProject.csproj",
+        "projectPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj",
         "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\final\\pooproject\\poo-project-api\\POOProject\\obj\\",
+        "outputPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
