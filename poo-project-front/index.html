@@ -1,56 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-    </head>
-</html>
+<html lang="pt-br">
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>
+        Cadastro de Clientes Manager Cell 
+    </title>
+</head>
+
 <body>
     <div class="row">
-            <div class="col-sm-offset-1 col-sm-12">
+        <div class="col-sm-offset-1 col-sm-12">
             <form id="cadastro-smartphone" class="text-center border border-light p-5" action="#!">
 
-                <p class="h4 mb-4">Bem-vindo ao sistema de triagem de Clientes da Manager Cell !</p>
-                <p class="h4 mb-4">Cadastre um novo Cliente:</p>
+                <p class="h4 mb-4">Bem-vindo ao Sistema de Triagem de Clientes da Manager Cell !</p>
+                <p class="h4 mb-4">Cadastre um Novo Cliente:</p>
 
                 <input type="text" id="nome" class="offset-3 col-sm-6 form-control mb-4" placeholder="Nome do Cliente">
-                <input type="text" id="cpf"  class="offset-3 col-sm-6 form-control mb-4" placeholder="CPF do Cliente (somente números)" onblur="TestaCPF(this.value);">
-                <input type="text" id="marca" class="offset-3 col-sm-6 form-control mb-4" placeholder="Marca do Produto">
-                <input type="text" id="modelo" class="offset-3 col-sm-6 form-control mb-4" placeholder="Modelo do Produto">
-                <input type="text" id="problema" class="offset-3 col-sm-6 form-control mb-4" placeholder="Problema do produto">
-                <button class="btn btn-info btn-block my-3 offset-3 col-sm-6" type="submit">Cadastrar</button>        
+                <input type="text" id="cpf" class="offset-3 col-sm-6 form-control mb-4"
+                    placeholder="CPF do Cliente (Somente Números)" onblur="TestaCPF(this.value);">
+                <input type="text" id="marca" class="offset-3 col-sm-6 form-control mb-4"
+                    placeholder="Marca do Produto">
+                <input type="text" id="modelo" class="offset-3 col-sm-6 form-control mb-4"
+                    placeholder="Modelo do Produto">
+                <input type="text" id="problema" class="offset-3 col-sm-6 form-control mb-4"
+                    placeholder="Problema do Produto">
+                <button class="btn btn-info btn-block my-3 offset-3 col-sm-6" type="submit">Cadastrar</button>
             </form>
         </div>
     </div>
-	<input type="text" id="myInput" class="offset-3 col-sm-6 form-control mb-4" onkeyup="myFunction()" placeholder="Digite o ID do cliente que deseja buscar...">
-    <div class="row" >
+    <input type="text" id="myInput" class="offset-3 col-sm-6 form-control mb-4" onkeyup="myFunction()"
+        placeholder="Digite o ID do cliente que deseja buscar...">
+    <div class="row">
         <div class="offset-2 col-sm-8">
             <table id="grid" class="table table-bordered">
-                <thead >
-                <tr>
-                    <th colspan="6" class="text-center">Clientes cadastrados</th>
-					
-                </tr>
-                <tr>
-                    <th>ID</th>
-                    <th>Nome</th>
-                    <th>CPF</th>
-                    <th>Marca</th>
-                    <th>Modelo</th>
-                    <th>Problema apresentado</th>
-                </tr>
+                <thead>
+                    <tr>
+                        <th colspan="6" class="text-center">Clientes Cadastrados</th>
+
+                    </tr>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Problema Apresentado</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr><td colspan="6">Não há dispositivos cadastrados</td></tr>
+                    <tr>
+                        <td colspan="6">Não Há Dispositivos Cadastrados</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             ListarSmartphones();
 
-           $("#cadastro-smartphone").submit(function (e) {
+            $("#cadastro-smartphone").submit(function (e) {
                 e.preventDefault();
 
                 var params = {
@@ -63,31 +74,31 @@
 
                 $.ajax({
                     type: "POST",
-                    url: "https://localhost:44313/api/SistemaCadastro/CadastrarSmartphones",
+                    url: "https://pooproject20191212033413.azurewebsites.net/api/SistemaCadastro/CadastrarSmartphones",
                     data: JSON.stringify(params),
                     dataType: "json",
                     contentType: "application/json",
-                    success: function(retorno) {
-                      CarregarLista(retorno);
+                    success: function (retorno) {
+                        CarregarLista(retorno);
                     },
                 });
-           });
+            });
         });
 
 
         function CarregarLista(lista) {
             $('#grid > tbody').empty();
-            
-            for(var i = 0; i < lista.length; i++) {
+
+            for (var i = 1; i < lista.length; i++) {
 
                 var html = "<tr>" +
-                            "<td>" + lista[i].id + "</td>" +
-                            "<td>" + lista[i].nome + "</td>" +
-                            "<td>" + lista[i].cpf + "</td>" +
-                            "<td>" + lista[i].marca + "</td>" +
-                            "<td>" + lista[i].modelo + "</td>" +
-                            "<td>" + lista[i].problema + "</td>" +
-                            "</tr>" 
+                    "<td>" + lista[i].id + "</td>" +
+                    "<td>" + lista[i].nome + "</td>" +
+                    "<td>" + lista[i].cpf + "</td>" +
+                    "<td>" + lista[i].marca + "</td>" +
+                    "<td>" + lista[i].modelo + "</td>" +
+                    "<td>" + lista[i].problema + "</td>" +
+                    "</tr>"
 
                 $('#grid > tbody').append(html);
             }
@@ -98,72 +109,14 @@
                 type: "GET",
                 url: "https://pooproject20191212033413.azurewebsites.net/api/SistemaCadastro/ListarSmartphones",
                 dataType: "application/JSON",
-                success: function(retorno) {
+                success: function (retorno) {
                     CarregarLista(retorno);
                 },
             });
         }
-		function myFunction() {
-  // Declare variables
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("grid");
-  tr = table.getElementsByTagName("tr");
-
-  // Loop through all table rows, and hide those who don't match the search query
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }
-  }
-}
-function TestaCPF(strCPF) {
-		var Soma, Resto, borda_original;
-		Soma = 0;
-		
-		if (strCPF == "00000000000"){
-			document.getElementById("cpf").setCustomValidity('CPF Invalido');
-			return false;
-		}
-		
-		for (i=1; i<=9; i++){
-			Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (11 - i);
-		}
-		
-		Resto = (Soma * 10) % 11;
-		if ((Resto == 10) || (Resto == 11)){
-			Resto = 0;
-		}
-		
-		if (Resto != parseInt(strCPF.substring(9, 10))){
-			document.getElementById("cpf").setCustomValidity('CPF Invalido');
-			return false;
-		}
-		
-		Soma = 0;
-		for (i = 1; i <= 10; i++){
-			Soma = Soma + parseInt(strCPF.substring(i-1, i)) * (12 - i);
-		}
-		
-		Resto = (Soma * 10) % 11;
-		if ((Resto == 10) || (Resto == 11)){
-			Resto = 0;
-		}
-		
-		if (Resto != parseInt(strCPF.substring(10, 11))){
-			document.getElementById("cpf").setCustomValidity('CPF Invalido');
-			return false;
-		}
-		
-		document.getElementById("cpf").setCustomValidity('');
-		return true;
-	}
+        
     </script>
+    <script src="js/funcoes.js" type="text/javascript"></script>
 </body>
+
+</html>

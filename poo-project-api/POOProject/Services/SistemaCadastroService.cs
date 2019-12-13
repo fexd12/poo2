@@ -20,7 +20,8 @@ namespace POOProject.Services
             var ulimoSmartphone = smartphones.FirstOrDefault();
 
             //Verifica se há um smartphone cadastrado e se houver recupera o ultimoID e acrescenta mais um, se não inicia com 1.
-            smartphone.ID = ulimoSmartphone != null ? ulimoSmartphone.ID ++ : 1;
+            smartphone.ID = ulimoSmartphone != null ? ulimoSmartphone.ID++ : 1;
+            
 
             smartphones.Add(smartphone);
 

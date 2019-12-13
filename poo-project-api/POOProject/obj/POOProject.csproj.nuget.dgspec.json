@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj": {}
+    "C:\\Users\\felipe\\Desktop\\poo2-master\\poo-project-api\\POOProject\\POOProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj": {
+    "C:\\Users\\felipe\\Desktop\\poo2-master\\poo-project-api\\POOProject\\POOProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj",
+        "projectUniqueName": "C:\\Users\\felipe\\Desktop\\poo2-master\\poo-project-api\\POOProject\\POOProject.csproj",
         "projectName": "POOProject",
-        "projectPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\POOProject.csproj",
-        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\angel\\OneDrive\\Área de Trabalho\\poo2\\poo-project-api\\POOProject\\obj\\",
+        "projectPath": "C:\\Users\\felipe\\Desktop\\poo2-master\\poo-project-api\\POOProject\\POOProject.csproj",
+        "packagesPath": "C:\\Users\\felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\felipe\\Desktop\\poo2-master\\poo-project-api\\POOProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\felipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

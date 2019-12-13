@@ -60,3 +60,19 @@ C:\Users\angel\OneDrive\Área de Trabalho\poo2\poo-project-api\POOProject\obj\De
 C:\Users\angel\OneDrive\Área de Trabalho\poo2\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorTargetAssemblyInfo.cache
 C:\Users\angel\OneDrive\Área de Trabalho\poo2\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.dll
 C:\Users\angel\OneDrive\Área de Trabalho\poo2\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.deps.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.runtimeconfig.dev.json
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\bin\Debug\netcoreapp2.2\POOProject.pdb
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.csprojAssemblyReference.cache
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cache
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorAssemblyInfo.cs
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfoInputs.cache
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.AssemblyInfo.cs
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.RazorTargetAssemblyInfo.cache
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.dll
+C:\Users\felipe\Desktop\poo2-master\poo-project-api\POOProject\obj\Debug\netcoreapp2.2\POOProject.pdb
